@@ -332,6 +332,7 @@ h3{
     width: 100%;
     border-radius: 25px;
     border: solid 1px;
+    border-color: black;
 }
 
 @media (max-width: 480px) {
