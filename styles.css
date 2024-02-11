@@ -3,18 +3,8 @@ body{
   background-color: #fafafa;
 }
 /* Font */
-@font-face {
-  font-family: 'playfair';
-  src: url('font/playfair/static/PlayfairDisplay-Regular.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: 'inter';
-  src: url('font/inter/static/Inter-Regular.ttf') format("truetype");
-}
-
 h4{
-  font-family: playfair;
+  font-family: 'Playfair Display', serif;
 }
 
 h2, h3{
@@ -22,7 +12,7 @@ font-family: 'Single Day', cursive;
 }
 
 p , a, label, input, button {
-  font-family: inter;
+  font-family: 'Inter', sans-serif;
 }
 
 /*header menu*/
