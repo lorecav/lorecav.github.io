@@ -1,0 +1,465 @@
+/* Font */
+@font-face {
+  font-family: 'playfair';
+  src: url('font/playfair/static/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'singleday';
+  src:url('font/singleday/singleday-regular.ttf');
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url('font/inter/static/Inter-Regular.ttf');
+}
+
+h4{
+  font-family: playfair;
+}
+
+h2, h3{
+  font-family: singleday;
+}
+
+p , a, label, input, button {
+  font-family: inter;
+}
+
+/* header menu */
+
+body{
+  margin: 0px;
+  background-color: #fafafa;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header ul{
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header ul a{
+  font-weight: bolder;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header ul a:hover{
+  background-color: #FFB400;
+  color: #212121;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.header .logo{
+  float: left;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.header .logo:hover {
+  opacity: 0.8;
+}
+
+a .logo-img {
+  max-width: 50px;
+  max-height: 50px;
+  padding: 0px 20px 0px 10px;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header .menu{
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.header .menu-icon{
+  padding-top: 40px;
+  padding-right: 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.header .menu-icon .nav-icon{
+  background-color: white;
+  display: block;
+  width: 18px;
+  height: 2px;
+  position: relative;
+  transition: background-color .2s ease-out;
+}
+
+.header .menu-icon .nav-icon::before,
+.header .menu-icon .nav-icon::after{
+  background-color: white;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: all .2s ease-out;
+  position: absolute;
+}
+
+.header .menu-icon .nav-icon::before{
+  top: 5px
+}
+
+.header .menu-icon .nav-icon::after{
+  top: -5px;
+}
+
+.header .menu-btn{
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background-color: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon::before {
+transform: rotate(-45deg);
+top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon::after {
+transform: rotate(45deg);
+top: 0;
+}
+
+/* HEADER Desktop version */
+
+@media (min-width: 48em) {
+
+  .header ul{
+    padding: 20px;
+  }
+
+  .header li{
+    float: left;
+    display: inline-block;
+  }
+
+    .header li a{
+      padding: 20px 30px;
+      display: block;
+    }
+
+    .header .menu{
+      clear: none;
+      float: right;
+      max-height: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .header .menu-icon{
+      display: none;
+    }
+}
+
+/* Griglia 1 header*/
+.container-1 {
+  padding: 120px 20px 60px 20px;
+  color: white;
+  text-align: center;
+  background-color: #0E1428;
+}
+
+.container-1 h2{
+  font-size: 52px;
+}
+
+.container-1 p{
+  font-size: 23px;
+}
+
+.div-col1 {
+  width: 100%;
+}
+
+#me {
+    border-radius: 50px 4px;
+}
+
+.div-col2{
+  width: 100%;
+}
+
+.buttons {
+  padding-top: 28px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+/* Stili per i bottoni */
+.primary-button{
+  background-color: #fff9eb;
+  padding: 10px 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.primary-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.primary-button:hover {
+  opacity: 0.7;
+}
+
+.secondary-button {
+  background-color: #ff9f1c;
+  color: black;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.secondary-button:hover {
+  opacity: 0.7;
+}
+
+/* Griglia 2*/
+
+#job{
+  font-size: 3em;
+}
+
+.container-2 {
+  background-color: #fafafa;
+  padding: 0px 20px 20px 20px;
+  color: black;
+  text-align: center;
+}
+
+.container-2 h3{
+  font-size: 28px;
+}
+
+.container-2 p{
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 10px 1%;
+  font-size: 18px;
+}
+
+#publicis-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: solid 1px;
+}
+
+/* Griglia 3*/
+.container-3{
+  background-color: #fafafa;
+  padding: 20px 20px 50px 20px;
+  color: black;
+  text-align: center;
+}
+
+.container-3 h3{
+  font-size: 28px;
+}
+
+.container-3 p{
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 10px 1%;
+  font-size: 18px;
+}
+
+
+#wk-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: solid 1px;
+}
+
+/* Griglia 4*/
+
+#studies{
+font-size: 3em;
+}
+
+.container-4{
+  padding: 0px 20px 50px 20px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.container-4 h3{
+  font-size: 28px;
+}
+
+.container-4 p{
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 10px 1%;
+  font-size: 18px;
+}
+
+#s2i-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+#unistrapg-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #fafafa;
+}
+
+#unipi-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #fafafa;
+}
+
+/* Desktop version div */
+
+@media (min-width: 48em) {
+
+.container-1 .row .col-1{
+  padding: 0;
+}
+
+#me{
+margin-top: 70px;
+}
+
+#job, #studies{
+  text-align: center;
+  font-size: 72px;
+}
+
+.container-1 .row{
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-1{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.col-2 {
+  padding-left: 10em;
+  padding-bottom: 10px;
+}
+
+.container-1 .row .col-2 {
+  text-align: left;
+}
+
+.col-2 h3, h4{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-2 p{
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+p .paragraph {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.container-3 p{
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+.container-4 p{
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  margin: 0 0 20px 0;
+}
+}
+
+
+/* Stili per il Footer */
+
+.footer-container{
+  padding-top: 40px;
+}
+
+footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a img {
+  max-width: 50px;
+}
+
+footer a img:hover {
+  max-width: 50px;
+  opacity: 0.5;
+}

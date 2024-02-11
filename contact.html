@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorenzo Cavalieri UX designer portfolio</title>
+  <link rel="stylesheet" href="styles-contact.css">
+  <link rel="icon" type="images/blue-ux-logo.png" href="images/blue-ux-logo.png">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-nome">
+    <a href="index.html" class="logo">
+      <img class="logo-img" src="images/ux-logo-designer.png" alt="logo">
+      <h4>L O R E N Z O </br> C A V A L I E R I</h4>
+    </a>
+    </div>
+
+    <input class="menu-btn" id="menu-btn" type="checkbox">
+    <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <ul class="menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact me</a></li>
+      </ul>
+  </header>
+
+<div class="container-1">
+  <div class="row">
+    <div class="col-2">
+    <h2>Let's get in touch</h2>
+    <p>If you are interested in learning more about how I can help your business,<br/>
+      or to get advice on your digital presence, please don't hesitate to contact me!</p>
+    </div>
+    <div id="button">
+      <a href="#main-content">
+        <button type="submit" class="cta-button">Contact me</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+    <div id="main-content">
+      <div class="container">
+        <h3>Fill the form and let's talk!</h3>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+         <input type="hidden" name="access_key" value="1b0aeff3-3821-4f5e-9061-2f6a2ac65806">
+      <label for="nome">Name *</label>
+      <input type="text" id="nome" name="nome" required placeholder="Jean Rosseau">
+
+      <label for="cognome">Email *</label>
+      <input type="text" id="cognome" name="email" required placeholder="J.rosseau@mail.com">
+
+      <label for="telefono">Phone number *</label>
+      <input type="tel" id="telefono" name="telefono" required placeholder="+39 3882981002">
+
+      <label for="azienda">Company *</label>
+      <input type="text" id="azienda" name="azienda" required placeholder="Capsule Corporation">
+
+      <label for="messaggio">Message (optional)</label>
+      <textarea id="messaggio" name="messaggio" rows="4" placeholder="Dear Lorenzo, I would like to express my interest in..."></textarea>
+
+      <button type="submit" class="cta-button">Send</button>
+    </form>
+  </div>
+</div>
+
+    <div class="footer-container">
+      <footer>
+        <a href="http://linkedin.com/in/lorenzo-cavalieri259/" target="_blank">
+          <img src="images/linkedin.png" alt="link to my linkedin profile">
+        </a>
+        <a href="https://www.behance.net/lorenzocavalieri" target="_blank">
+          <img src="images/behance.png" alt="link to my behance profile">
+       </a>
+        <a href="https://github.com/lorecav" target="_blank">
+          <img src="images/github.png" alt="link to my github profile">
+      </a>
+</footer>
+</div>
+
+</body>
+</html>
