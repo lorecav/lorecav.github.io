@@ -9,11 +9,6 @@ body{
 }
 
 @font-face {
-  font-family: 'singleday';
-  src:url('font/singleday/singleday-regular.ttf') format("truetype");
-}
-
-@font-face {
   font-family: 'inter';
   src: url('font/inter/static/Inter-Regular.ttf') format("truetype");
 }
@@ -23,7 +18,7 @@ h4{
 }
 
 h2, h3{
-  font-family: singleday;
+font-family: 'Single Day', cursive;
 }
 
 p , a, label, input, button {
