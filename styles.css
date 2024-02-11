@@ -5,17 +5,17 @@ body{
 /* Font */
 @font-face {
   font-family: 'playfair';
-  src: url('font/playfair/static/PlayfairDisplay-Regular.ttf');
+  src: url('font/playfair/static/PlayfairDisplay-Regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: 'singleday';
-  src:url('font/singleday/singleday-regular.ttf');
+  src:url('font/singleday/singleday-regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: 'inter';
-  src: url('font/inter/static/Inter-Regular.ttf');
+  src: url('font/inter/static/Inter-Regular.ttf') format("truetype");
 }
 
 h4{
