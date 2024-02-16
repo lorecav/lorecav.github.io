@@ -7,11 +7,15 @@ body{
 }
 
 /* Font */
-h4{
+#logonome {
   font-family: 'Playfair Display', serif;
 }
 
-h2, h3{
+#logonome{
+  font-size: 15px;
+}
+
+#title, h2{
   font-family: 'Single Day', cursive;
 }
 
@@ -55,7 +59,7 @@ p , a, label, input, button {
 
 .header .logo{
   float: left;
-  padding: 10px 10px;
+  padding: 20px 10px;
   cursor: pointer;
 }
 
@@ -172,7 +176,7 @@ top: 0;
 }
 
 /*Stili per il testo h2 e p*/
-h2 {
+#title {
   background-color: #0E1428;
   text-align: center;
   padding-top: 20px;
@@ -266,7 +270,7 @@ button:hover {
   margin: 10px 1%;
 }
 
-.testo h2{
+.testo #title{
   color: white;
   text-align: left;
 }
@@ -288,7 +292,7 @@ button:hover {
 }
 
 /* Stili per la galleria */
-h3{
+h2{
   font-size: 43px;
   margin: 52px 0 46px 0;
   text-align: center;

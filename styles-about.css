@@ -1,9 +1,13 @@
 /* Font */
-h4{
+h1, h4{
   font-family: 'Playfair Display', serif;
 }
 
-h2, h3{
+#logonome{
+  font-size: 15px;
+}
+
+#title, h2, h3{
   font-family: 'Single Day', cursive;
 }
 
@@ -53,7 +57,7 @@ body{
 
 .header .logo{
   float: left;
-  padding: 10px 10px;
+  padding: 20px 10px;
   cursor: pointer;
 }
 
@@ -178,7 +182,7 @@ top: 0;
   background-color: #0E1428;
 }
 
-.container-1 h2{
+.container-1 #title{
   font-size: 52px;
 }
 
