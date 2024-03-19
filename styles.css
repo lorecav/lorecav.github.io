@@ -23,7 +23,7 @@ p , a, label, input, button {
 
 .header{
   background-color: black;
-  color: white;#
+  color: white;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -278,7 +278,7 @@ button {
   color: black;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
