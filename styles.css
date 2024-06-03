@@ -300,6 +300,10 @@ button:hover {
 }
 
 
+.seemore {
+  text-align: center;
+}
+
 /* Stile desktop per testo e form*/
 @media (min-width: 1052px) {
 

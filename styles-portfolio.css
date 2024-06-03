@@ -264,15 +264,16 @@ button:hover {
 
 .testo{
   color: white;
-  text-align: left;
+  text-align: center;
   display: inline-block;
   width: 22%;
   margin: 10px 1%;
+  padding-bottom: 30px;
 }
 
 .testo #title{
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .testo-con-bottone {
