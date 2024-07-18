@@ -231,7 +231,7 @@ top: 0;
 }
 
 .container h3{
-  padding-top: 0;
+  padding-top: 10px;
   margin: 0 0 30px 0;
 }
 
@@ -351,7 +351,7 @@ button:hover {
 
 /* Stili per la galleria */
 h3{
-  font-size: 43px;
+  font-size: 24px;
   margin: 52px 0 46px 0;
   text-align: center;
 }
