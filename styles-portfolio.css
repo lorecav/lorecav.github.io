@@ -16,7 +16,7 @@ body{
 }
 
 #title, h2{
-  font-family: 'Single Day', cursive;
+  font-family: 'Inter', sans-serif;
 }
 
 p , a, label, input, button {
@@ -297,6 +297,7 @@ h2{
   font-size: 43px;
   margin: 52px 0 46px 0;
   text-align: center;
+  color: #2a2a2a;
 }
 
 #galleria{
