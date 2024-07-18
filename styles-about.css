@@ -1,10 +1,11 @@
 /* Font */
-h1, h4{
-  font-family: 'Inter', sans-serif;
-}
-
 #logonome{
   font-size: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h4{
+  font-family: 'Inter', sans-serif;
 }
 
 #title, h2, h3{
