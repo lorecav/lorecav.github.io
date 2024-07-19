@@ -20,6 +20,13 @@ h3 {
     color: #2a2a2a;
 }
 
+h4
+{
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  color: #2a2a2a;
+}
+
 p , a, label, input, button {
   font-family: 'Inter', sans-serif;
 }
@@ -351,7 +358,7 @@ button:hover {
 
 /* Stili per la galleria */
 h3{
-  font-size: 24px;
+  font-size: 32px;
   margin: 52px 0 46px 0;
   text-align: center;
 }
