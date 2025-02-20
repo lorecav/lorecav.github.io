@@ -247,6 +247,13 @@ top: 0;
   opacity: 0.7;
 }
 
+#hastega-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: solid 1px;
+}
+
 /* Griglia 2*/
 
 #job{
@@ -273,13 +280,6 @@ top: 0;
 }
 
 #publicis-logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border: solid 1px;
-}
-
-#hastega-logo {
   width: 100px;
   height: 100px;
   border-radius: 100px;
