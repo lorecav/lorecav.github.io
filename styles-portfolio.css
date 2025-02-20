@@ -16,11 +16,11 @@ body{
 }
 
 #title, h2{
-  font-family: 'Inter', sans-serif;
+  font-family: "Lato", serif;
 }
 
 p , a, label, input, button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Lato", serif;
 }
 
 /*header menu*/
