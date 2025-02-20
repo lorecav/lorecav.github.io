@@ -16,19 +16,19 @@ font-family: 'Single Day', cursive;
 }
 
 h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Lato", serif;
     color: #2a2a2a;
 }
 
 h4
 {
   font-size: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Lato", serif;
   color: #2a2a2a;
 }
 
 p , a, label, input, button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Lato", serif;
 }
 
 /*header menu*/
