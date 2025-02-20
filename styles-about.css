@@ -355,7 +355,7 @@ font-size: 3em;
 
 @media (min-width: 48em) {
 
-.container-1 .row .col-1{
+.container-1 .row .col-1 .col-00{
   padding: 0;
 }
 
@@ -377,6 +377,12 @@ margin-top: 70px;
 .row {
   display: flex;
   justify-content: center;
+}
+
+.col-00{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .col-1{
